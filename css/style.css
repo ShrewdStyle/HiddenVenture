@@ -126,8 +126,11 @@ h2 {
 
 .text-area, .photo1, .photo2, .photo3, .photo4 {
     display: flex;
-    height: 100%;
     flex: 50%;
+    height: 100%;
+}
+.text-area, .wrapper {
+    width: 100%;
 }
 .text-area {
     justify-content: center;
@@ -136,8 +139,8 @@ h2 {
 }
 
 #photo1, #photo2, #photo3, #photo4 {
-    height: 80%;
-    width: 50%;
+    height: 60%;
+    width: 35%;
 }
 
 /* INTRO BUTTON */
